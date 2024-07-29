@@ -1,0 +1,39 @@
+1. What is Emmet?
+It is a popular toolkit that helps web developers to write HTML
+and CSS faster using abbreviations and shortcuts.
+
+2. Difference between library and a framework?
+Library is a repository that consists of pre-written code. It provides reusable functions
+and routines. On the other hand, framework is like a blueprint. It is a set of tools and guidelines
+that helps you build things more easily and quickly.
+
+3. What is CDN? Why do we use it?
+CDN is content delivery network, it is a collection of different servers. It is used such that there will be no time lapse in fetching any information from any part of the world
+because you will be getting it from the point (or) data center that is closest to you
+Ex: you want to access a website thats based in newyork and you live in india. without a cdn, you will get your data directly from newyork which will take some time
+but with CDN, What happens is the website will locate multiple points and will give the data from a point nearest to you for suppose from delhi.
+
+4. Why is React known as React?
+React is known as react because it is designed for updating interfaces by reacting to changes in data.
+
+5. What is crossorigin in script tag?
+crossorigin are requests for resources from a diff domain than the one the current document is loading on.
+Normally when you visit a particular website it asks for cookies and the browser does not always send the user data to that website, but 
+when crossorigin : anonymous is set, you are telling the browser explicitly not to send any data.
+and when crossorigin : user-credentials is set, you are telling the browser to only send credentials.
+
+6. What is difference between react and reactDOM?
+
+React is the core library used for building web interfaces. It doesn't necessarily help in modify anything that has to do with DOM.
+ReactDOM is the one that helps in rendering the react to web interfaces.
+
+7.What is difference between react.development.js and react.production.js ?
+
+React.development.js is designed for usage in development scenarios. It includes additional warnings, error messages to help
+developers identify bugs and check errors while React.production.js is designed for production purposes. It doesn't include anything like the errors from development side.
+The development build includes useful debugging information, while the production build is optimized for performance and excludes development warnings
+
+8. What is async and defer ?
+
+for suppose i used async in script tag which in embedded before body tag then it will just load HTML and javascript simultaneously where as if i use defer in script tag then it will defer
+ the loading of javascript and run HTML first
