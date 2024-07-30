@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is namaste react by chaitanya",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Chaitanyan132/raect-tutorial.git)"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "chaitanya"
+  ],
+  "author": "Chaitanya Narapogu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
